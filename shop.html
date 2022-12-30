@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="web.css" rel="stylesheet" type="text/css" />
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nl">
+            <h1>O'Sushi </h1>
+        </div>
+
+        <div class="nr">
+            <a href="home.html">
+                <h2 class="m">Home</h2>
+            </a>
+            <a href="shop.html">
+                <h2 class="m">Shop</h2>
+            </a>
+            <a href="alamat.html">
+                <h2 class="m">Location</h2>
+            </a>
+            <a href="kontak.html">
+                <h2 class="m">Contact</h2>
+            </a>
+        </div>
+    </div>
+
+    <table class="product">
+        <tr>
+            <th>
+                <img src="https://www.japonalternativo.com/wp-content/uploads/2019/08/tamago-nigiri-sushi-receta.jpg">
+                <p>Tamago Sushi (6 pcs) <br><b> Rp. 30.0000</b> </p>
+                <div class="jumlah">
+                    <div class="wrapper">
+                        <span class="minus">-</span>
+                        <span class="num">00</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <script>
+                        const plus = document.querySelector(".plus"),
+                            minus = document.querySelector(".minus"),
+                            num = document.querySelector(".num");
+                        let a = 0;
+                        plus.addEventListener("click", () => {
+                            a++;
+                            a = (a < 10) ? "0" + a : a;
+                            num.innerText = a;
+                        });
+
+                        minus.addEventListener("click", () => {
+                            if (a > 0) {
+                                a--;
+                                a = (a < 10) ? "0" + a : a;
+                                num.innerText = a;
+                            }
+                        });
+
+                    </script>
+                </div>
+            </th>
+
+            <th>
+                <img src="https://i.imgur.com/j6ExsFG.jpg">
+                <p>Ikura Sushi (6 pcs) <br><b> Rp. 35.0000</b> </p>
+                <div class="jumlah">
+                    <div class="wrapper">
+                        <span class="minus2">-</span>
+                        <span class="num2">00</span>
+                        <span class="plus2">+</span>
+                    </div>
+                    <script>
+                        const plus2 = document.querySelector(".plus2"),
+                            minus2 = document.querySelector(".minus2"),
+                            num2 = document.querySelector(".num2");
+                        let a2 = 0;
+                        plus2.addEventListener("click", () => {
+                            a2++;
+                            a2 = (a2 < 10) ? "0" + a2 : a2;
+                            num2.innerText = a2;
+                        });
+
+                        minus2.addEventListener("click", () => {
+                            if (a2 > 0) {
+                                a2--;
+                                a2 = (a2 < 10) ? "0" + a2 : a2;
+                                num2.innerText = a2;
+                            }
+                        });
+
+                    </script>
+                </div>
+            </th>
+
+            <th>
+                <img src="https://cdn.livekindly.co/wp-content/uploads/2017/11/ahimi-sushi-768x512.jpg">
+                <p>Maguro Sushi (6 pcs)<br><b> Rp. 40.0000</b> </p>
+                <div class="jumlah">
+                    <div class="wrapper">
+                        <span class="minus3">-</span>
+                        <span class="num3">00</span>
+                        <span class="plus3">+</span>
+                    </div>
+                    <script>
+                        const plus3 = document.querySelector(".plus3"),
+                            minus3 = document.querySelector(".minus3"),
+                            num3 = document.querySelector(".num3");
+                        let a3 = 0;
+                        plus3.addEventListener("click", () => {
+                            a3++;
+                            a3 = (a3 < 10) ? "0" + a3 : a3;
+                            num3.innerText = a3;
+                        });
+
+                        minus3.addEventListener("click", () => {
+                            if (a3 > 0) {
+                                a3--;
+                                a3 = (a3 < 10) ? "0" + a3 : a3;
+                                num3.innerText = a3;
+                            }
+                        });
+
+                    </script>
+                </div>
+
+            </th>
+
+            <th>
+                <img src="https://i.pinimg.com/originals/a1/56/99/a1569987f83c9e67535b7ae09e7cb8a7.png">
+                <p>Ebi Sushi (6 pcs)<br><b> Rp. 35.0000</b> </p>
+                <div class="jumlah">
+                    <div class="wrapper">
+                        <span class="minus4">-</span>
+                        <span class="num4">00</span>
+                        <span class="plus4">+</span>
+                    </div>
+                    <script>
+                        const plus4 = document.querySelector(".plus4"),
+                            minus4 = document.querySelector(".minus4"),
+                            num4 = document.querySelector(".num4");
+                        let a4 = 0;
+                        plus4.addEventListener("click", () => {
+                            a4++;
+                            a4 = (a4 < 10) ? "0" + a4 : a4;
+                            num4.innerText = a4;
+                        });
+
+                        minus4.addEventListener("click", () => {
+                            if (a4 > 0) {
+                                a4--;
+                                a4 = (a4 < 10) ? "0" + a4 : a4;
+                                num4.innerText = a4;
+                            }
+                        });
+
+                    </script>
+                </div>
+            </th>
+
+            <th>
+                <img src="https://cdn.tasteatlas.com/images/dishes/7a3b421a1ace419c99818c5f9d46853a.jpg">
+                <p>Unagi Sushi (6 pcs) <br><b> Rp. 40.0000</b> </p>
+                <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">00</span>
+                    <span class="plus">+</span>
+                </div>
+            </th>
+
+            <th>
+                <img
+                    src="https://th.bing.com/th/id/R.f34ada32564e3ce2d58e264a8c770d1b?rik=X4iOfLLFr%2bLdZA&riu=http%3a%2f%2fwww.eatdrink.my%2fkl%2fwp-content%2fuploads%2fsites%2f2%2f2016%2f07%2fPremium-Salmon-sushi-king.jpg&ehk=V9Eq7ubOTisBD07CxG0wpqycVNnaQdMZFsAW4lyrxYM%3d&risl=&pid=ImgRaw&r=0">
+                <p>Salmon Sushi (6 pcs) <br><b> Rp. 45.0000</b> </p>
+                <div class="wrapper">
+                    <span class="minus">-</span>
+                    <span class="num">00</span>
+                    <span class="plus">+</span>
+                </div>
+            </th>
+        </tr>
+
+    </table>
+
+    <div class="tombol">
+        <button type="button" onclick="alert('Already Check Out!')">Check Out!</button>
+    </div>
+</body>
+
+</html>

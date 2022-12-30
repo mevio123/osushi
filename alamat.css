@@ -1,0 +1,48 @@
+
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #685634;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.nr {
+    display: flex;
+}
+
+.product {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.m {
+    margin-right: 10px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding-top: 40px;
+  } 
+
+.textnya {
+    height: auto;
+    width: 300px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+
+} 
+
+.mapnya{
+    width: auto;
+}

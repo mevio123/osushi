@@ -1,0 +1,32 @@
+a {
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6d3b47;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.m {
+    margin-right: 20px;
+}
+
+.nr {
+    display: flex;
+}
+
+.nl{
+    font-family: 'Balsamiq Sans', cursive;
+    color: antiquewhite;
+}
+
+body {
+    background-color: white;
+    margin: 80px 0px 0px 0px;
+}

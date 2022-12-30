@@ -1,0 +1,158 @@
+.product th {
+    background-color: #FCAF58;
+    padding: 20px;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #424242;
+    border-width: 3px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+body {
+    background-color: white;
+    margin: 100px 0px 0px 0px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-color: #424242;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+p {
+    font-size: large;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6d3b47;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
+
+.nr {
+    display: flex;
+}
+
+.nl{
+    font-family: 'Balsamiq Sans', cursive;
+    color: antiquewhite;
+}
+.product {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.m {
+    margin-right: 20px;
+}
+
+
+
+.wrapper {
+    height: 25px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #424242;
+    border-style: solid;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.wrapper span {
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+    user-select: none;
+}
+
+.wrapper span.num {
+    font-size: 25px;
+    pointer-events: none;
+}
+.map {
+    display: flex;
+    justify-content: center;
+
+    width: 90% ;
+    border: solid black;
+  } 
+.textnya {
+    height: auto;
+    width: 300px;
+} 
+.mapnya{
+    width: auto;
+}
+
+button{
+    background-color: #6d3b47;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #424242;
+    border-style: solid;
+    padding: 15px;
+    font-size: larger;
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+
+
+
+/*.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  */
+
+
+
