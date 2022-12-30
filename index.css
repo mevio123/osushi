@@ -1,0 +1,33 @@
+/*
+
+button:hover {
+    background-color: #3e8e41
+}
+
+.tagline {
+    position: absolute;
+}*/
+
+.container{
+    width: fit-content;
+    height: fit-content;
+}
+
+button {
+    font-size: 30px;
+    background-color: #6d3b47;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+
+button:hover {
+    background-color: #cc6e84;
+}
